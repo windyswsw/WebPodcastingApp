@@ -1,0 +1,15 @@
+Could someone hack your pacemaker? At TEDxMidAtlantic, Avi Rubin explains how hackers are compromising cars, smartphones and medical devices, and warns us about the dangers of an increasingly hack-able world. 
+
+Avi Rubin is a professor of computer science and director of Health and Medical Security Lab at Johns Hopkins University. His current research is focused on the security of electronic medical records
+More and more, nations are waging attacks with cyber weapons -- silent strikes on another country's computer systems that leave behind no trace. (Think of the Stuxnet worm.) At TEDxParis, Guy-Philippe Goldstein shows how cyberattacks can leap between the digital and physical worlds to prompt armed conflict -- and how we might avert this global security hazard.
+
+Guy-Philippe Goldstein is the author of Babel Minute Zero, a novel that examines the reality of cyberwar in our current geopolitical topography
+Despite multibillion-dollar investments in cybersecurity, one of its root problems has been largely ignored: who are the people who write malicious code? Underworld investigator Misha Glenny profiles several convicted coders from around the world and reaches a startling conclusion.
+
+ Journalist Misha Glenny leaves no stone unturned (and no failed state unexamined) in his excavation of criminal globalization
+It's been 25 years since the first PC virus (Brain A) hit the net, and what was once an annoyance has become a sophisticated tool for crime and espionage. Computer security expert Mikko Hyppönen tells us how we can stop these new viruses from threatening the internet as we know it.
+
+ As computer access expands, Mikko Hypponen asks: What's the next killer virus, and will the world be able to cope with it
+When first discovered in 2010, the Stuxnet computer worm posed a baffling puzzle. Beyond its sophistication loomed a more troubling mystery: its purpose. Ralph Langner and team helped crack the code that revealed this digital warhead's final target. In a fascinating look inside cyber-forensics, he explains how -- and makes a bold (and, it turns out, correct) guess at its shocking origins.
+
+ Ralph Langner is a German control system security consultant. He has received worldwide recognition for his analysis of the Stuxnet malware

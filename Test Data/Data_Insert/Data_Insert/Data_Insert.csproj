@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{638F64FF-CAE1-4016-9DF9-E2062DB5CE14}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Data_Insert</RootNamespace>
+    <AssemblyName>Data_Insert</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Business.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Business.Designer.cs">
+      <DependentUpon>Business.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Entertainment\Entertainment_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Entertainment\Entertainment_1.Designer.cs">
+      <DependentUpon>Entertainment_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Entertainment\Entertainment_2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Entertainment\Entertainment_2.Designer.cs">
+      <DependentUpon>Entertainment_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Environment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Environment.Designer.cs">
+      <DependentUpon>Environment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main\Category_Selection_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main\Category_Selection_Form.Designer.cs">
+      <DependentUpon>Category_Selection_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main\Data_Insert_Starting_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main\Data_Insert_Starting_Form.Designer.cs">
+      <DependentUpon>Data_Insert_Starting_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main\Finish.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main\Finish.Designer.cs">
+      <DependentUpon>Finish.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Medical.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Medical.Designer.cs">
+      <DependentUpon>Medical.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Politics.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Politics.Designer.cs">
+      <DependentUpon>Politics.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Religious\Religious_2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Religious\Religious_2.Designer.cs">
+      <DependentUpon>Religious_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Religious\Religious_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Religious\Religious_1.Designer.cs">
+      <DependentUpon>Religious_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Science.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Science.Designer.cs">
+      <DependentUpon>Science.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sports\Sports_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sports\Sports_1.Designer.cs">
+      <DependentUpon>Sports_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sports\Sports_2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sports\Sports_2.Designer.cs">
+      <DependentUpon>Sports_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sports\Sports_3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sports\Sports_3.Designer.cs">
+      <DependentUpon>Sports_3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Technology Pages\Technology_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Technology Pages\Technology_1.Designer.cs">
+      <DependentUpon>Technology_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Technology Pages\Technology_2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Technology Pages\Technology_2.Designer.cs">
+      <DependentUpon>Technology_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Technology Pages\Technology_3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Technology Pages\Technology_3.Designer.cs">
+      <DependentUpon>Technology_3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Technology Pages\Technology_4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Technology Pages\Technology_4.Designer.cs">
+      <DependentUpon>Technology_4.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Business.resx">
+      <DependentUpon>Business.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Entertainment\Entertainment_1.resx">
+      <DependentUpon>Entertainment_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Entertainment\Entertainment_2.resx">
+      <DependentUpon>Entertainment_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Environment.resx">
+      <DependentUpon>Environment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\Category_Selection_Form.resx">
+      <DependentUpon>Category_Selection_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\Data_Insert_Starting_Form.resx">
+      <DependentUpon>Data_Insert_Starting_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\Finish.resx">
+      <DependentUpon>Finish.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Medical.resx">
+      <DependentUpon>Medical.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Politics.resx">
+      <DependentUpon>Politics.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Religious\Religious_2.resx">
+      <DependentUpon>Religious_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Religious\Religious_1.resx">
+      <DependentUpon>Religious_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Science.resx">
+      <DependentUpon>Science.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sports\Sports_1.resx">
+      <DependentUpon>Sports_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sports\Sports_2.resx">
+      <DependentUpon>Sports_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sports\Sports_3.resx">
+      <DependentUpon>Sports_3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Technology Pages\Technology_1.resx">
+      <DependentUpon>Technology_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Technology Pages\Technology_2.resx">
+      <DependentUpon>Technology_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Technology Pages\Technology_3.resx">
+      <DependentUpon>Technology_3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Technology Pages\Technology_4.resx">
+      <DependentUpon>Technology_4.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

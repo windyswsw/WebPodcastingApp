@@ -1,0 +1,5 @@
+F:\Raven 2008-03-01\My_Life\MSc_VS\Sat_Demo\WebVideoCacheApp\BayesianProbabiltyDetector\bin\Debug\BayesianProbabiltyDetector.dll
+F:\Raven 2008-03-01\My_Life\MSc_VS\Sat_Demo\WebVideoCacheApp\BayesianProbabiltyDetector\bin\Debug\BayesianProbabiltyDetector.pdb
+F:\Raven 2008-03-01\My_Life\MSc_VS\Sat_Demo\WebVideoCacheApp\BayesianProbabiltyDetector\obj\Debug\ResolveAssemblyReference.cache
+F:\Raven 2008-03-01\My_Life\MSc_VS\Sat_Demo\WebVideoCacheApp\BayesianProbabiltyDetector\obj\Debug\BayesianProbabiltyDetector.dll
+F:\Raven 2008-03-01\My_Life\MSc_VS\Sat_Demo\WebVideoCacheApp\BayesianProbabiltyDetector\obj\Debug\BayesianProbabiltyDetector.pdb
